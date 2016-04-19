@@ -1,8 +1,10 @@
 # The OSX Friendly Version of the Default Firmware
 
-So, I took the default firmware and just made a couple of tweaks that make it easier to use with OS X:
+So, I took the default firmware and just made a couple of tweaks that make it
+easier to use. I also added a [Plover](../plover/) layer to play around with.
 
-1. The Cmd key is now on the right side, making Cmd+Space easier.
-2. The media keys work on OSX (But not on Windows).
+## Base Layer
+![Base Layer](base_layer.png)
 
-![default osx](default_osx_highres.png)
+## Coder Layer
+![Coder Layer](coder_layer.png)
