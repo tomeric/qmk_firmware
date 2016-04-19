@@ -1,4 +1,4 @@
-# The OSX Friendly Version of the Default Firmware
+# ErgoDox EZ - Tom-Eric's settings
 
 So, I took the default firmware and just made a couple of tweaks that make it
 easier to use. I also added a [Plover](../plover/) layer to play around with.
