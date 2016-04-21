@@ -14,7 +14,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Keymap 0: Basic layer
  *
  * ,--------------------------------------------------.           ,--------------------------------------------------.
- * | Esc    |   1  |   2  |   3  |   4  |   5  |  L1  |           |  L2  |   6  |   7  |   8  |   9  |   0  |  BkSp  |
+ * | ~`    |   1  |   2  |   3  |   4  |   5  |  L1  |           |  L2  |   6  |   7  |   8  |   9  |   0  |  BkSp  |
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
  * | Tab    |   Q  |   W  |   E  |   R  |   T  |  =   |           |   -  |   Y  |   U  |   I  |   O  |   P  |   \    |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
@@ -25,7 +25,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *   | LGui | Left |  Up  | Down | Right|                                       |Grv/L1|  '"  |   [  |   ]  |  L3  |
  *   `----------------------------------'                                       `----------------------------------'
  *                                       ,--------------.       ,-------------.
- *                                       |Ctr/Esc|  Alt |       |VolDwn|VolUp |
+ *                                       |Esc/Ctr|  Alt |       |VolDwn|VolUp |
  *                                ,------|-------|------|       |------+--------+------.
  *                                |      |       |   ]  |       |  }   |        |      |
  *                                | Space|  Tab  |------|       |------|  Enter | Space|
@@ -36,7 +36,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // Otherwise, it needs KC_*
 [BASE] = KEYMAP(  // layer 0 : default
         // left hand
-        KC_ESC,   KC_1,         KC_2,   KC_3,   KC_4,   KC_5,   TG(SYMB),
+        KC_GRV,   KC_1,         KC_2,   KC_3,   KC_4,   KC_5,   TG(SYMB),
         KC_TAB,   KC_Q,         KC_W,   KC_E,   KC_R,   KC_T,   KC_EQL,
         KC_DEL,   KC_A,         KC_S,   KC_D,   KC_F,   KC_G,
         KC_LSFT,  CTL_T(KC_Z),  KC_X,   KC_C,   KC_V,   KC_B,   LT(SYMB,KC_SLSH),
