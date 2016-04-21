@@ -145,7 +145,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
  * |        |   1  |   2  |   3  |   4  |   5  |      |           |      |  6   |  7   |   8  |   9  |  0   |        |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
- * |        |   q  |   w  |   e  |   r  |   t  |------|           |------|  y   |  u   |   i  |   o  |  p   |   [    |
+ * |        |   q  |   w  |   e  |   r  |   t  |------|           |------|  y   |  u   |   i  |   o  |  p   |        |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * |        |   a  |   s  |   d  |   f  |   g  |      |           |      |  h   |  j   |   k  |   l  |  ;   |   '    |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
@@ -156,7 +156,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                 ,------|------|------|       |------+------+------.
  *                                 |      |      |      |       |      |      |      |
  *                                 |   c  |   v  |------|       |------|  n   |  m   |
- *                                 |      |      |      |       |      |      |      |
+ *                                 |      |      |  [   |       |      |      |      |
  *                                 `--------------------'       `--------------------'
  */
 
@@ -169,11 +169,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO, KC_NO,  KC_NO,  KC_NO,  KC_NO,
                                        KC_FN4, KC_NO,
                                                KC_NO,
-                               KC_C,   KC_V,   KC_NO,
+                               KC_C,   KC_V,   KC_LBRC,
         // right hand
         KC_NO,    KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO,   KC_NO,
         KC_TRNS,  KC_6,    KC_7,    KC_8,    KC_9,  KC_0,    KC_NO,
-                  KC_Y,    KC_U,    KC_I,    KC_O,  KC_P,    KC_LBRC,
+                  KC_Y,    KC_U,    KC_I,    KC_O,  KC_P,    KC_NO,
         KC_NO,    KC_H,    KC_J,    KC_K,    KC_L,  KC_SCLN, KC_QUOT,
                            KC_TRNS, KC_TRNS, KC_NO, KC_NO,   KC_TRNS,
         KC_TRNS, KC_TRNS,
